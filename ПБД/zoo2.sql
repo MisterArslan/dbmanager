@@ -32,7 +32,7 @@ create table contract
 );
 create table schedule
 (
-	day timestamp primary key,
+	day date primary key,
 	employee_id integer references employee(id) on update cascade on delete cascade
 );
 create table feed
