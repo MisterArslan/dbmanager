@@ -12,7 +12,7 @@ inner join role on contract.role_id = role.id
 select employee.name, contract.expiration
 from employee
 inner join contract on employee.id = contract.employee_id
-where contract.expiration <> '' and contract.expiration > '2010-01-01'
+where contract.expiration > '2010-01-01'
 -- Выводит всю подходящую по возрасту еду для животных в зоопарке
 select zooanimal.name, feed.name
 from zooanimal
