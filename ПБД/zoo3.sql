@@ -54,7 +54,7 @@ create table animal
 );
 create table animal_feed
 (
-	breed varchar(20) references animal(breed) on update cascade on delete cascade,
+	breed varchar(20) references animal(breed) on update cascade,
 	feed_id integer references feed(id) on update cascade on delete cascade
 );
 create table zooanimal
