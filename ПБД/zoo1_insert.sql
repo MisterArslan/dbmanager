@@ -22,17 +22,17 @@ values('Dasha', 'Tegeneva', 'Petrovna','+78970123456','Russia','1849-10-01');
 insert into contract(number,commencement,expiration,role,jobtype,employee_id)
 values('10293847560','2005-10-10','2020-10-10','Feeder','part-time', 1);
 insert into contract(number,commencement,expiration,role,jobtype,employee_id)
-values('10293847561','2005-20-10','2020-20-10','Cleaner','part-time', 2);
+values('10293847561','2005-10-10','2020-10-10','Cleaner','part-time', 2);
 insert into contract(number,commencement,expiration,role,jobtype,employee_id)
 values('10293847562','2014-10-10','2024-10-10','Security','part-time', 3);
 insert into contract(number,commencement,expiration,role,jobtype,employee_id)
 values('10293847563','2015-10-10','2025-10-10','Manager','part-time', 4);
 insert into contract(number,commencement,expiration,role,jobtype,employee_id)
-values('10293847564','2015-10-10','','Manager','full-time', 5);
+values('10293847564','2015-10-10',null,'Manager','full-time', 5);
 insert into contract(number,commencement,expiration,role,jobtype,employee_id)
-values('10293847565','2005-10-10','','Security','full-time', 6);
+values('10293847565','2005-10-10',null,'Security','full-time', 6);
 insert into contract(number,commencement,expiration,role,jobtype,employee_id)
-values('10293847566','2005-10-10','','Feeder','full-time', 7);
+values('10293847566','2005-10-10',null,'Feeder','full-time', 7);
 insert into contract(number,commencement,expiration,role,jobtype,employee_id)
 values('10293847567','2005-10-10','2020-10-10','Cleaner','part-time', 8);
 insert into contract(number,commencement,expiration,role,jobtype,employee_id)
@@ -55,7 +55,7 @@ insert into feed(name,minage,maxage) values('Cat food', null, null);
 insert into feed(name,minage,maxage) values('Large predator food', null, null);
 insert into feed(name,minage,maxage) values('Bird food', null, null);
 insert into feed(name,minage,maxage) values('Cat special food', 5, null);
-insert into feed(name,minage,maxage) values('Large predator special food', 3, null);
+insert into feed(name,minage,maxage) values('Large special', 3, null);
 insert into feed(name,minage,maxage) values('Rodents food', null, null);
 insert into feed(name,minage,maxage) values('Kitty food', null, 4);
 insert into feed(name,minage,maxage) values('Small predator food', null, 6);

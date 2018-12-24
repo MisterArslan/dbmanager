@@ -31,17 +31,17 @@ insert into role(name) values('Smuggler');
 insert into contract(number,commencement,expiration,role_id,jobtype_id,employee_id)
 values('10293847560','2005-10-10','2020-10-10',1,2,1);
 insert into contract(number,commencement,expiration,role_id,jobtype_id,employee_id)
-values('10293847561','2005-20-10','2020-20-10',3,2,2);
+values('10293847561','2005-10-10','2020-10-10',3,2,2);
 insert into contract(number,commencement,expiration,role_id,jobtype_id,employee_id)
 values('10293847562','2014-10-10','2024-10-10',2,2,3);
 insert into contract(number,commencement,expiration,role_id,jobtype_id,employee_id)
 values('10293847563','2015-10-10','2025-10-10',4,2,4);
 insert into contract(number,commencement,expiration,role_id,jobtype_id,employee_id)
-values('10293847564','2015-10-10','',4,1,5);
+values('10293847564','2015-10-10',null,4,1,5);
 insert into contract(number,commencement,expiration,role_id,jobtype_id,employee_id)
-values('10293847565','2005-10-10','',2,1,6);
+values('10293847565','2005-10-10',null,2,1,6);
 insert into contract(number,commencement,expiration,role_id,jobtype_id,employee_id)
-values('10293847566','2005-10-10','',1,1,7);
+values('10293847566','2005-10-10',null,1,1,7);
 insert into contract(number,commencement,expiration,role_id,jobtype_id,employee_id)
 values('10293847567','2005-10-10','2020-10-10',3,2,8);
 insert into contract(number,commencement,expiration,role_id,jobtype_id,employee_id)
@@ -64,7 +64,7 @@ insert into feed(name,minage,maxage) values('Cat food', null, null);
 insert into feed(name,minage,maxage) values('Large predator food', null, null);
 insert into feed(name,minage,maxage) values('Bird food', null, null);
 insert into feed(name,minage,maxage) values('Cat special food', 5, null);
-insert into feed(name,minage,maxage) values('Large predator special food', 3, null);
+insert into feed(name,minage,maxage) values('Large special', 3, null);
 insert into feed(name,minage,maxage) values('Rodents food', null, null);
 insert into feed(name,minage,maxage) values('Kitty food', null, 4);
 insert into feed(name,minage,maxage) values('Small predator food', null, 6);
