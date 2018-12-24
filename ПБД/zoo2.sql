@@ -26,7 +26,6 @@ create table contract
 	number varchar(20) primary key,
 	commencement date,
 	expiration date,
-	document bytea,
 	role_id integer references role(id) on update cascade,
 	jobtype_id integer references jobtype(id) on update cascade,
 	employee_id integer references employee(id) on update cascade

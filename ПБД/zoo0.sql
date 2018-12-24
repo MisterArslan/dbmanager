@@ -17,13 +17,12 @@ create table contract
 	commencement date,
 	expiration date,
 	role varchar(20),
-	document bytea,
 	jobtype varchar(20),
 	employee_id integer references employee(id) on update cascade
 );
 create table schedule
 (
-	day timestamp primary key,
+	day date primary key,
 	employee_id integer references employee(id) on update cascade on delete cascade
 );
 create table feed
@@ -40,7 +39,7 @@ create table animal
 	squad varchar(20),
 	family varchar(20),
 	kind varchar(20),
-	feed integer array[100],
+	feed integer array[10],
 	breed varchar(20) primary key
 );
 create table zooanimal

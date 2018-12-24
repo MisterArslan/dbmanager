@@ -17,7 +17,6 @@ create table contract
 	commencement date,
 	expiration date,
 	role varchar(20),
-	document bytea,
 	jobtype varchar(20),
 	employee_id integer references employee(id) on update cascade
 );

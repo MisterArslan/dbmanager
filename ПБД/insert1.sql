@@ -62,26 +62,26 @@ insert into feed(name,minage,maxage) values('Small predator food', null, 6);
 insert into feed(name,minage,maxage) values('Universal food', null, null);
 insert into feed(name,minage,maxage) values('Monkey food', null, 15);
 
-insert into animal(type,class,squad,family,kind,feed,breed)
-values ('type1','class1','squad1','family1','kind1', {1,4,7}, 'tiger');
-insert into animal(type,class,squad,family,kind,feed,breed)
-values ('type1','class1','squad1','family1','kind2', {1,4,7}, 'lion');
-insert into animal(type,class,squad,family,kind,feed,breed)
-values ('type1','class1','squad1','family1','kind2', {1,4,7}, 'white tiger');
-insert into animal(type,class,squad,family,kind,feed,breed)
-values ('type1','class1','squad1','family1','kind2', {1,4,7}, 'ligr');
-insert into animal(type,class,squad,family,kind,feed,breed)
-values ('type5','class5','squad5','family5','kind5', {2,5,8}, 'bear');
-insert into animal(type,class,squad,family,kind,feed,breed)
-values ('type5','class5','squad5','family5','kind6', {2,5,8}, 'polar bear');
-insert into animal(type,class,squad,family,kind,feed,breed)
-values ('type7','class7','squad7','family7','kind7', {3}, 'bird1');
-insert into animal(type,class,squad,family,kind,feed,breed)
-values ('type7','class7','squad7','family7','kind8', {3}, 'bird2');
-insert into animal(type,class,squad,family,kind,feed,breed)
-values ('type7','class7','squad7','family7','kind9', {3}, 'bird3');
-insert into animal(type,class,squad,family,kind,feed,breed)
-values ('type7','class7','squad7','family7','kind10', {3}, 'bird4');
+insert into animal(type,class,squad,family,kind,breed)
+values ('type1','class1','squad1','family1','kind1', 'tiger');
+insert into animal(type,class,squad,family,kind,breed)
+values ('type1','class1','squad1','family1','kind2', 'lion');
+insert into animal(type,class,squad,family,kind,breed)
+values ('type1','class1','squad1','family1','kind2', 'white tiger');
+insert into animal(type,class,squad,family,kind,breed)
+values ('type1','class1','squad1','family1','kind2', 'ligr');
+insert into animal(type,class,squad,family,kind,breed)
+values ('type5','class5','squad5','family5','kind5', 'bear');
+insert into animal(type,class,squad,family,kind,breed)
+values ('type5','class5','squad5','family5','kind6', 'polar bear');
+insert into animal(type,class,squad,family,kind,breed)
+values ('type7','class7','squad7','family7','kind7', 'bird1');
+insert into animal(type,class,squad,family,kind,breed)
+values ('type7','class7','squad7','family7','kind8', 'bird2');
+insert into animal(type,class,squad,family,kind,breed)
+values ('type7','class7','squad7','family7','kind9', 'bird3');
+insert into animal(type,class,squad,family,kind,breed)
+values ('type7','class7','squad7','family7','kind10', 'bird4');
 
 insert into zooanimal(name,age,arrival,whence,breed,description)
 values ('Moosya',12,'2017-05-05','Africa','tiger','There is no off switch on a tiger.');
@@ -103,3 +103,20 @@ insert into zooanimal(name,age,arrival,whence,breed,description)
 values ('Moryak',12,'2017-05-05','North Pole','polar bear','"I caught a bear!" "Bring it here!" "It won’t come." "Then come yourself!" "It won’t let me!"');
 insert into zooanimal(name,age,arrival,whence,breed,description)
 values ('Kukushka',12,'2017-05-05','Amazonia Rainforests','bird4','A bird does not sing because it has an answer. It sings because it has a song.');
+
+insert into animal_feed(breed,feed_id) values('tiger', 1);
+insert into animal_feed(breed,feed_id) values('white tiger', 4);
+insert into animal_feed(breed,feed_id) values('lion', 7);
+insert into animal_feed(breed,feed_id) values('ligr', 1);
+insert into animal_feed(breed,feed_id) values('bear', 2);
+insert into animal_feed(breed,feed_id) values('polar bear', 5);
+insert into animal_feed(breed,feed_id) values('tiger', 4);
+insert into animal_feed(breed,feed_id) values('white tiger', 7);
+insert into animal_feed(breed,feed_id) values('lion', 1);
+insert into animal_feed(breed,feed_id) values('ligr', 4);
+insert into animal_feed(breed,feed_id) values('bear', 8);
+insert into animal_feed(breed,feed_id) values('polar bear', 2);
+insert into animal_feed(breed,feed_id) values('bird1', 3);
+insert into animal_feed(breed,feed_id) values('bird2', 3);
+insert into animal_feed(breed,feed_id) values('bird3', 3);
+insert into animal_feed(breed,feed_id) values('bird4', 3);
