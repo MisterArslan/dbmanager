@@ -95,23 +95,23 @@ values ('type7','class7','squad7','family7','kind10', 'bird4');
 insert into zooanimal(name,age,arrival,whence,breed,description)
 values ('Moosya',12,'2017-05-05','Africa','tiger','There is no off switch on a tiger.');
 insert into zooanimal(name,age,arrival,whence,breed,description)
-values ('Sharik',12,'2017-05-05','Africa','ligr','There is no off switch on a tiger.');
+values ('Sharik',9,'2017-05-05','Africa','ligr','There is no off switch on a tiger.');
 insert into zooanimal(name,age,arrival,whence,breed,description)
-values ('Avraam',12,'2017-05-05','USA','bird1','A bird does not sing because it has an answer. It sings because it has a song.');
+values ('Avraam',4,'2017-05-05','USA','bird1','A bird does not sing because it has an answer. It sings because it has a song.');
 insert into zooanimal(name,age,arrival,whence,breed,description)
-values ('Avatar',12,'2017-05-05','Amazonia Rainforests','white tiger','There is no off switch on a tiger.');
+values ('Avatar',5,'2017-05-05','Amazonia Rainforests','white tiger','There is no off switch on a tiger.');
 insert into zooanimal(name,age,arrival,whence,breed,description)
-values ('Sanya',12,'2017-05-05','Amazonia Rainforests','bird2','A bird does not sing because it has an answer. It sings because it has a song.');
+values ('Sanya',2,'2017-05-05','Amazonia Rainforests','bird2','A bird does not sing because it has an answer. It sings because it has a song.');
 insert into zooanimal(name,age,arrival,whence,breed,description)
-values ('Barsik',12,'2017-05-05','Africa','lion','There is no off switch on a tiger.');
+values ('Barsik',15,'2017-05-05','Africa','lion','There is no off switch on a tiger.');
 insert into zooanimal(name,age,arrival,whence,breed,description)
-values ('Moomoo',12,'2017-05-05','Russia','bear','"I caught a bear!" "Bring it here!" "It won’t come." "Then come yourself!" "It won’t let me!"');
+values ('Moomoo',10,'2017-05-05','Russia','bear','"I caught a bear!" "Bring it here!" "It won’t come." "Then come yourself!" "It won’t let me!"');
 insert into zooanimal(name,age,arrival,whence,breed,description)
-values ('Alenka',12,'2017-05-05','Africa','bird3','A bird does not sing because it has an answer. It sings because it has a song.');
+values ('Alenka',3,'2017-05-05','Africa','bird3','A bird does not sing because it has an answer. It sings because it has a song.');
 insert into zooanimal(name,age,arrival,whence,breed,description)
 values ('Moryak',12,'2017-05-05','North Pole','polar bear','"I caught a bear!" "Bring it here!" "It won’t come." "Then come yourself!" "It won’t let me!"');
 insert into zooanimal(name,age,arrival,whence,breed,description)
-values ('Kukushka',12,'2017-05-05','Amazonia Rainforests','bird4','A bird does not sing because it has an answer. It sings because it has a song.');
+values ('Kukushka',1,'2017-05-05','Amazonia Rainforests','bird4','A bird does not sing because it has an answer. It sings because it has a song.');
 
 insert into animal_feed(breed,feed_id) values('tiger', 1);
 insert into animal_feed(breed,feed_id) values('white tiger', 4);

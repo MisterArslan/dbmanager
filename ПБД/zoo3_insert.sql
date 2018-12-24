@@ -95,23 +95,23 @@ values ('type7','class7','squad7','family7','kind10', 'bird4','A bird does not s
 insert into zooanimal(name,age,arrival,whence,breed)
 values ('Moosya',12,'2017-05-05','Africa','tiger');
 insert into zooanimal(name,age,arrival,whence,breed)
-values ('Sharik',12,'2017-05-05','Africa','ligr');
+values ('Sharik',9,'2017-05-05','Africa','ligr');
 insert into zooanimal(name,age,arrival,whence,breed)
-values ('Avraam',12,'2017-05-05','USA','bird1');
+values ('Avraam',4,'2017-05-05','USA','bird1');
 insert into zooanimal(name,age,arrival,whence,breed)
-values ('Avatar',12,'2017-05-05','Amazonia Rainforests','white tiger');
+values ('Avatar',5,'2017-05-05','Amazonia Rainforests','white tiger');
 insert into zooanimal(name,age,arrival,whence,breed)
-values ('Sanya',12,'2017-05-05','Amazonia Rainforests','bird2');
+values ('Sanya',2,'2017-05-05','Amazonia Rainforests','bird2');
 insert into zooanimal(name,age,arrival,whence,breed)
-values ('Barsik',12,'2017-05-05','Africa','lion');
+values ('Barsik',15,'2017-05-05','Africa','lion');
 insert into zooanimal(name,age,arrival,whence,breed)
-values ('Moomoo',12,'2017-05-05','Russia','bear');
+values ('Moomoo',10,'2017-05-05','Russia','bear');
 insert into zooanimal(name,age,arrival,whence,breed)
-values ('Alenka',12,'2017-05-05','Africa','bird3');
+values ('Alenka',3,'2017-05-05','Africa','bird3');
 insert into zooanimal(name,age,arrival,whence,breed)
 values ('Moryak',12,'2017-05-05','North Pole','polar bear');
 insert into zooanimal(name,age,arrival,whence,breed)
-values ('Kukushka',12,'2017-05-05','Amazonia Rainforests','bird4');
+values ('Kukushka',1,'2017-05-05','Amazonia Rainforests','bird4');
 
 insert into animal_feed(breed,feed_id) values('tiger', 1);
 insert into animal_feed(breed,feed_id) values('white tiger', 4);
