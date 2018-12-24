@@ -94,6 +94,8 @@ namespace DBManager
         {
             try
             {
+                selectCommand = selectCommand.Replace("\n", " ")
+                    .Replace("\r", " ").Replace("\r\n", " ");
                 // Create a new data adapter based on the specified query.
                 dataAdapter = new NpgsqlDataAdapter(selectCommand, DBConnection.Connection);
                 // Create a command builder to generate SQL update, insert, and
@@ -120,7 +122,7 @@ namespace DBManager
             if (!Initialized) return;
             var box = sender as ComboBox;
             // Change db connection
-            DBConnection.Database = box.SelectedText;
+            DBConnection.Database = box.SelectedItem.ToString();
             // Change tablesbox
             ReloadTablesBox();
             // Change data

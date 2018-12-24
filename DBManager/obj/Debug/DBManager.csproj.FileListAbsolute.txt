@@ -10,7 +10,6 @@ C:\Users\Lionheart\Source\Repos\DBManager\DBManager\bin\Debug\Npgsql.xml
 C:\Users\Lionheart\Source\Repos\DBManager\DBManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Lionheart\Source\Repos\DBManager\DBManager\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Lionheart\Source\Repos\DBManager\DBManager\bin\Debug\System.ValueTuple.xml
-C:\Users\Lionheart\Source\Repos\DBManager\DBManager\obj\Debug\DBManager.csprojAssemblyReference.cache
 C:\Users\Lionheart\Source\Repos\DBManager\DBManager\obj\Debug\DBManager.MainForm.resources
 C:\Users\Lionheart\Source\Repos\DBManager\DBManager\obj\Debug\DBManager.Properties.Resources.resources
 C:\Users\Lionheart\Source\Repos\DBManager\DBManager\obj\Debug\DBManager.csproj.GenerateResource.cache
